@@ -1,0 +1,30 @@
+{
+  "name": "media-downloader-api",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "downloader",
+    "media",
+    "api"
+  ],
+  "homepage": "https://github.com/c0del1ar/media-downloader-api#readme",
+  "bugs": {
+    "url": "https://github.com/c0del1ar/media-downloader-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0del1ar/media-downloader-api.git"
+  },
+  "license": "GPL-3.0",
+  "author": "AryaKun",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "unyah": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "cyber-media-downloader": "^1.0.0",
+    "express": "^5.1.0"
+  }
+}

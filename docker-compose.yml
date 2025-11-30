@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  media-downloader-api:
+    build: .
+    container_name: media-downloader-api
+    ports:
+      - "41101:41101"
+    restart: unless-stopped
